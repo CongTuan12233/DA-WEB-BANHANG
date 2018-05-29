@@ -4,13 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { HomeModule } from './home/home.module';
+import { AdminModule } from './admin/admin.module';
 
 @NgModule({
   declarations: [
     AppComponent
   ],
   imports: [
-    BrowserModule,appRoutes,HomeModule
+    BrowserModule,appRoutes
   ],
   providers: [],
   bootstrap: [AppComponent]
