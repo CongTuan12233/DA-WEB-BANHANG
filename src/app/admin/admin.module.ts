@@ -13,7 +13,7 @@ const adminR: Routes = [
       // // thay component bằng loadchil thì là trỏ đến 1 module khác
       // { path: 'chitietsanpham', component: TrangChiTietSanPhamComponent }, 
       // { path: 'trangchu', component:TrangChuComponent},
-      { path: '**',redirectTo:''}
+      // { path: '**',redirectTo:''}
     
     ]
   }
